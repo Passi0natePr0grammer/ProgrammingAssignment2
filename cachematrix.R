@@ -61,7 +61,7 @@ cacheSolve <- function(x, ...) {
         # if it is 'NULL', retrieve the matrix and find its inverse,
         # storing it in the cache:
         data <- x$getMatrix # buffer for data
-        inverse <- solve(data)
+        inverse <- par(data)
         x$setInvMatrix(inverse)
         
         inverse # dump the value
