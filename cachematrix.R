@@ -39,7 +39,7 @@ makeCacheMatrix <- function(x = matrix()) {
         
                 setMatrix = setMatrix,
                 getMatrix = getMatrix,
-                setInvMatrix = getInvMatrix,
+                setInvMatrix = setInvMatrix,
                 getInvMatrix = getInvMatrix
         
         )
